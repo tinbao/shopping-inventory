@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:shopping-app}",
+            "name": "Debug shopping-app",
+            "program": "${workspaceFolder:shopping-app}/.build/debug/shopping-app",
+            "preLaunchTask": "swift: Build Debug shopping-app"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:shopping-app}",
+            "name": "Release shopping-app",
+            "program": "${workspaceFolder:shopping-app}/.build/release/shopping-app",
+            "preLaunchTask": "swift: Build Release shopping-app"
+        }
+    ]
+}
